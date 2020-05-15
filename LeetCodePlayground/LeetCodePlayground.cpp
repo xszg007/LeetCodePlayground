@@ -2,10 +2,14 @@
 //
 
 #include "stdafx.h"
-
+#include "752.h"
+#include <vector>
+#include <algorithm>
+#include <iostream>
 
 int main()
 {
+	int res=openLock();
     return 0;
 }
 
