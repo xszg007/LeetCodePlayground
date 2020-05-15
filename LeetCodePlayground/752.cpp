@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include <queue>
+#include <unordered_set>
 using namespace std;
 
 int openLock()
@@ -9,8 +10,10 @@ int openLock()
 	vector<string> deadends = { "0201","0101","0102","1212","2002" };
 	if ("0000" == target)
 		return 0;
-	vector<string>::iterator it_zero = find(deadends.begin(), deadends.end(), "0000");
-	if (it_zero != deadends.end())
+	unordered_set<string>deads(deadends.begin(), deadends.end());
+	unordered_set<string> hslst;
+	hslst.insert("0000");
+	if (deads.count("0000") != 0)
 		return -1;
 	bool targ_f = 0;
 	for (int i = 0; i<4; i++)
@@ -23,11 +26,8 @@ int openLock()
 		else {
 			target_n[i]++;
 		}
-		vector<string>::iterator it_tag = find(deadends.begin(), deadends.end(), target_n);
-		if (it_tag != deadends.end())
-		{
+		if (deads.count(target_n) != 0)
 			continue;
-		}
 		else
 			targ_f = 1;
 	}
@@ -41,11 +41,8 @@ int openLock()
 		else {
 			target_n[i]--;
 		}
-		vector<string>::iterator it_tag = find(deadends.begin(), deadends.end(), target_n);
-		if (it_tag != deadends.end())
-		{
+		if (deads.count(target_n) != 0)
 			continue;
-		}
 		else
 			targ_f = 1;
 	}
@@ -53,10 +50,9 @@ int openLock()
 		return -1;
 	queue<string> unl;
 	unl.push("0000");
+
 	unl.push("round");
 	int step = 1;
-	vector<string> hslst;
-	hslst.push_back("0000");
 	while (!unl.empty())
 	{
 		if (unl.front() == "round")
@@ -84,18 +80,12 @@ int openLock()
 			}
 			else
 			{
-				vector<string>::iterator it = find(deadends.begin(), deadends.end(), cur_n);
-				if (it != deadends.end())
-				{
-					continue;//
-				}
-				vector<string>::iterator it_hs = find(hslst.begin(), hslst.end(), cur_n);
-				if (it_hs != hslst.end())
-				{
+				if (deads.count(cur_n) != 0)
 					continue;
-				}
+				if (hslst.count(cur_n) != 0)
+					continue;
 				unl.push(cur_n);
-				hslst.push_back(cur_n);
+				hslst.insert(cur_n);
 			}
 		}
 		for (int i = 0; i<4; i++)
@@ -116,18 +106,12 @@ int openLock()
 			}
 			else
 			{
-				vector<string>::iterator it = find(deadends.begin(), deadends.end(), cur_n);
-				if (it != deadends.end())
-				{
+				if (deads.count(cur_n) != 0)
 					continue;
-				}
-				vector<string>::iterator it_hs = find(hslst.begin(), hslst.end(), cur_n);
-				if (it_hs != hslst.end())
-				{
+				if (hslst.count(cur_n) != 0)
 					continue;
-				}
 				unl.push(cur_n);
-				hslst.push_back(cur_n);
+				hslst.insert(cur_n);
 			}
 		}
 		if (unl.front() == "round")
@@ -137,7 +121,3 @@ int openLock()
 	return -1;
 }
 
-int openLock()
-{
-
-}
