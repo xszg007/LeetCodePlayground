@@ -56,6 +56,7 @@ int openLock()
 	unl.push("round");
 	int step = 1;
 	vector<string> hslst;
+	hslst.push_back("0000");
 	while (!unl.empty())
 	{
 		if (unl.front() == "round")
@@ -134,4 +135,9 @@ int openLock()
 			unl.push("round");
 	}
 	return -1;
+}
+
+int openLock()
+{
+
 }
