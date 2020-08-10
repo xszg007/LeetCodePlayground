@@ -11,6 +11,7 @@
 #include <queue>
 #include <algorithm>
 #include <iostream>
+#include<string>
 using namespace std;
 
 int main()
@@ -21,7 +22,12 @@ int main()
 	/*string s_in = "3[a2[c]]";
 	string res;
 	res = decodeString(s_in);*/
-
+	string word="cat";
+	int s = 1;
+	//char sm = s + '0';
+	string sm = to_string(s);
+	string sht = word[0] + sm + word[2];
+	cout << sht << '\n';
 	int num = 5;
 	vector<vector<int>> res;
 	res = delta(num);
