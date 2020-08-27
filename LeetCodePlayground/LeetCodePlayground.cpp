@@ -13,10 +13,19 @@ using namespace std;
 
 int main()
 {
-	vector < int> input_220 = { 2147483647,-2147483647 };
-	int k = 1;
-	int t = 2147483647;
-	bool res = containsNearbyAlmostDuplicate(input_220, k, t);
+	vector<vector<string>> input;
+	vector<string> l1 = { "MUC", "LHR" };
+	vector<string> l2 = { "JFK", "MUC" };
+	vector<string> l3 = { "SFO", "ABC" };
+	vector<string> l4 = { "LHR", "SFO" };
+	vector<string> l5 = { "ABC", "END" };
+	input.push_back(l5);
+	input.push_back(l2);
+	input.push_back(l3);
+	input.push_back(l4);
+	input.push_back(l1);
+	vector<string> res;
+	res = findItinerary(input);
 	return 0;
 }
 
