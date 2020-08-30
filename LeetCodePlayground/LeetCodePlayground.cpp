@@ -13,7 +13,13 @@ using namespace std;
 
 int main()
 {
-	vector<vector<string>> input;
+	string str = "Let's take LeetCode contest";
+	string res = reverseWords(str);
+	/*int n = 3;
+	int f = 17;
+	n += 2 * f % 6 + 3;
+	cout << n;*/
+	/*vector<vector<string>> input;
 	vector<string> l1 = { "MUC", "LHR" };
 	vector<string> l2 = { "JFK", "MUC" };
 	vector<string> l3 = { "SFO", "ABC" };
@@ -25,7 +31,7 @@ int main()
 	input.push_back(l4);
 	input.push_back(l1);
 	vector<string> res;
-	res = findItinerary(input);
+	res = findItinerary(input);*/
 	return 0;
 }
 
