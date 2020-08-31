@@ -74,5 +74,8 @@
     <ClCompile Include="557.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ZTE_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

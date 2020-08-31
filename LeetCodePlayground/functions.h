@@ -10,6 +10,7 @@ int zeromatrix(vector<vector<int>>& matrixm, int rows, int cols);
 bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
 vector<string> findItinerary(vector<vector<string>>& tickets);
 string reverseWords(string s);
+int arithmetic();
 
 //typedef struct
 //{
