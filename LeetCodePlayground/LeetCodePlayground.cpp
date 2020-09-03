@@ -13,7 +13,11 @@ using namespace std;
 
 int main()
 {
-	int res=arithmetic();
+	int n, m;
+	cin >> n;
+	cin >> m;
+
+	//int res=arithmetic();
 	/*string str = "Let's take LeetCode contest";
 	string res = reverseWords(str);*/
 	/*int n = 3;
@@ -33,6 +37,6 @@ int main()
 	input.push_back(l1);
 	vector<string> res;
 	res = findItinerary(input);*/
-	return res;
+	return 0;
 }
 
