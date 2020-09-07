@@ -11,6 +11,9 @@ bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t);
 vector<string> findItinerary(vector<vector<string>>& tickets);
 string reverseWords(string s);
 int arithmetic();
+int func();
+
+
 
 //typedef struct
 //{

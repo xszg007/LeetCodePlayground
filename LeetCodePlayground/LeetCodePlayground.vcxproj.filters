@@ -80,5 +80,11 @@
     <ClCompile Include="baidu_3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="zx_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zx_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
