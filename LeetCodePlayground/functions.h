@@ -12,6 +12,8 @@ vector<string> findItinerary(vector<vector<string>>& tickets);
 string reverseWords(string s);
 int arithmetic();
 int func();
+vector<vector<int>> combinationSum(vector<int>& candidates, int target);
+void dfs(int i, int cur_sum, vector<int> cur_res);
 
 
 

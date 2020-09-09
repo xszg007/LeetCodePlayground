@@ -45,4 +45,5 @@ int funczx2() {
 			}
 		}
 	}
+	return 0;
 }
