@@ -166,6 +166,8 @@
     <ClCompile Include="baidu_3.cpp" />
     <ClCompile Include="Interview0108.cpp" />
     <ClCompile Include="LeetCodePlayground.cpp" />
+    <ClCompile Include="netease_1.cpp" />
+    <ClCompile Include="netease_2.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
