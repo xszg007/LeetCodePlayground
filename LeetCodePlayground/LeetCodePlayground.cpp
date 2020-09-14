@@ -12,9 +12,9 @@
 
 using namespace std;
 
-int main()
-{
-	int p = funcease();
-	return 0;
-}
+//int main()
+//{
+//	int p = funcease();
+//	return 0;
+//}
 
