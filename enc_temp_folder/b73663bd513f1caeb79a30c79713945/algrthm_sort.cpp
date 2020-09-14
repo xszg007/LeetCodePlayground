@@ -72,8 +72,6 @@ void BubbleSort_3(vector<int> & input) {
 }
 
 //鸡尾酒排序
-//适用情况：大部分元素已经有序
-//缺点：代码量扩大一倍
 //————>
 //<————
 void HappyHour(vector<int> & input) {
