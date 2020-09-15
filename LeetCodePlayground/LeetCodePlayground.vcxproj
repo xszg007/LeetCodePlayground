@@ -163,8 +163,13 @@
     <ClCompile Include="394.cpp" />
     <ClCompile Include="557.cpp" />
     <ClCompile Include="752.cpp" />
+    <ClCompile Include="algrthm_happyhoursort.cpp" />
+    <ClCompile Include="algrthm_mergesort.cpp" />
+    <ClCompile Include="algrthm_shellsort.cpp" />
     <ClCompile Include="algrthm_sort.cpp" />
+    <ClCompile Include="algrthm_quicksort.cpp" />
     <ClCompile Include="baidu_3.cpp" />
+    <ClCompile Include="algrthm_bubblesort.cpp" />
     <ClCompile Include="Interview0108.cpp" />
     <ClCompile Include="LeetCodePlayground.cpp" />
     <ClCompile Include="netease_1.cpp" />

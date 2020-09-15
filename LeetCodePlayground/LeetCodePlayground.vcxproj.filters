@@ -98,5 +98,20 @@
     <ClCompile Include="algrthm_sort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="algrthm_quicksort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algrthm_mergesort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algrthm_shellsort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algrthm_bubblesort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algrthm_happyhoursort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
