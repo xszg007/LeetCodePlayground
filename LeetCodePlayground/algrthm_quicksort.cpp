@@ -54,6 +54,51 @@ void quickSort(vector<int> & input, int startIndex, int endIndex) {
 	quickSort(input, pivot+1, endIndex);
 }
 
+//int partition2(vector<int> & input, int start, int end) {
+//	int index = start;
+//	int pivot = input[start];
+//	int left = start;
+//	int right = end;
+//	while (left <= right) {
+//		while (left <= right) {
+//			if (input[right] < pivot)
+//			{
+//				input[index] = input[right];
+//				index = right;
+//				left++;
+//				break;
+//			}
+//			else
+//			{
+//				right--;
+//			}
+//		}
+//		while (left <= right) {
+//			if (input[left] > pivot)
+//			{
+//				input[index] = input[left];
+//				index = left;
+//				right--;
+//				break;
+//			}
+//			else
+//			{
+//				left++;
+//			}
+//		}
+//		
+//	}
+//	input[index] = pivot;
+//	return index;
+//}
+//
+//void quicksort(vector<int> & input, int start, int end) {
+//	if (start >= end)
+//		return;
+//	int index = partition2(input, start, end);
+//	quicksort(input, start,index - 1);
+//	quicksort(input, index + 1, end);
+//}
 
 //int main() {
 //	quickSort(input_arry2, 0, input_arry2.size() - 1);

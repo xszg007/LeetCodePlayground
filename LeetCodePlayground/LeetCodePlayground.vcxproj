@@ -165,6 +165,7 @@
     <ClCompile Include="752.cpp" />
     <ClCompile Include="algrthm_happyhoursort.cpp" />
     <ClCompile Include="algrthm_mergesort.cpp" />
+    <ClCompile Include="algrthm_quicksort_od.cpp" />
     <ClCompile Include="algrthm_shellsort.cpp" />
     <ClCompile Include="algrthm_sort.cpp" />
     <ClCompile Include="algrthm_quicksort.cpp" />
