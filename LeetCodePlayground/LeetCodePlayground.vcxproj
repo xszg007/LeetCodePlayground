@@ -170,6 +170,7 @@
     <ClCompile Include="algrthm_quicksort.cpp" />
     <ClCompile Include="baidu_3.cpp" />
     <ClCompile Include="algrthm_bubblesort.cpp" />
+    <ClCompile Include="dahua_1.cpp" />
     <ClCompile Include="Interview0108.cpp" />
     <ClCompile Include="LeetCodePlayground.cpp" />
     <ClCompile Include="netease_1.cpp" />
