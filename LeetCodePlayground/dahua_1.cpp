@@ -1,4 +1,4 @@
-//#include "stdafx.h"
+#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -21,7 +21,7 @@ int GetLstWord(string & s) {
 	return count;
 }
 
-int main() {
-	int res=GetLstWord(input);
-	return res;
-}
+//int main() {
+//	int res=GetLstWord(input);
+//	return res;
+//}

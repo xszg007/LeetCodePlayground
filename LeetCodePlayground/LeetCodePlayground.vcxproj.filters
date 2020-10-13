@@ -116,5 +116,14 @@
     <ClCompile Include="dahua_1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="416.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="820.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

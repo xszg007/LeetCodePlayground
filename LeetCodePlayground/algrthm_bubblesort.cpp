@@ -2,18 +2,22 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-vector<int> input_arry = {3,2,56,34,2,5,76,7,8,6,4,3,2,54,6,98};
+vector<int> input_arry_bubble = {3,2,56,34,2,5,76,7,8,6,4,3,2,54,6,98};
 //O(N^2)，标准冒泡
-void BubbleSort(vector<int> & input) {
+void bubble(vector<int>& input) {
 	int len = input.size();
-	for (int i = 0; i < len; i++){
-		for (int j = 0; j < len - i - 1; j++){
-			if (input[j] > input[j + 1])
+	for (int i = 0; i < len; i++) {
+		for (int j = 0; j < len - i - 1; j++) {
+			if (input[j] > input[j + 1]) {
 				swap(input[j], input[j + 1]);
+			}
 		}
 	}
 	return;
 }
+
+
+
 //冒泡2，利用bool标记判断该论是否有序，有序则不进行后续遍历
 void BubbleSort_2(vector<int> & input) {
 	int len = input.size();
@@ -54,3 +58,8 @@ void BubbleSort_3(vector<int> & input) {
 	}
 	return;
 }
+
+//int main() {
+//	bubble(input_arry_bubble);
+//	return 0;
+//}

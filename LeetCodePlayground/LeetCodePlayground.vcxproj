@@ -64,9 +64,11 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\12.Opencv配置文件\Opencv4.3.0d.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\..\12.Opencv配置文件\Opencv4.3.0.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -161,8 +163,10 @@
     <ClCompile Include="332.cpp" />
     <ClCompile Include="39.cpp" />
     <ClCompile Include="394.cpp" />
+    <ClCompile Include="416.cpp" />
     <ClCompile Include="557.cpp" />
     <ClCompile Include="752.cpp" />
+    <ClCompile Include="820.cpp" />
     <ClCompile Include="algrthm_happyhoursort.cpp" />
     <ClCompile Include="algrthm_mergesort.cpp" />
     <ClCompile Include="algrthm_shellsort.cpp" />
@@ -181,6 +185,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="thread_test.cpp" />
     <ClCompile Include="ZTE_1.cpp" />
     <ClCompile Include="zx_1.cpp" />
     <ClCompile Include="zx_2.cpp" />
