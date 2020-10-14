@@ -157,6 +157,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Huawei_Interview\Huawei_Interview\Huawei_Interview.cpp" />
     <ClCompile Include="118.cpp" />
     <ClCompile Include="220.cpp" />
     <ClCompile Include="279.cpp" />

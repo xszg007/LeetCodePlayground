@@ -36,8 +36,8 @@ int minimumLengthEncoding(vector<string>& words) {
 	return res.size();
 }
 
-int main() {
-	vector<string> input = { "time", "me", "bell" };
-	int length = minimumLengthEncoding(input);
-	return 0;
-}
+//int main() {
+//	vector<string> input = { "time", "me", "bell" };
+//	int length = minimumLengthEncoding(input);
+//	return 0;
+//}
