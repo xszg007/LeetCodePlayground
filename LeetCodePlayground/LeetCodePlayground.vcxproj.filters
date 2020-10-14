@@ -128,5 +128,8 @@
     <ClCompile Include="..\..\Huawei_Interview\Huawei_Interview\Huawei_Interview.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="huawei_interview2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
