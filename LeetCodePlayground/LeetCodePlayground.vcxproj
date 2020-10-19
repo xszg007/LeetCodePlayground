@@ -157,7 +157,6 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Huawei_Interview\Huawei_Interview\Huawei_Interview.cpp" />
     <ClCompile Include="118.cpp" />
     <ClCompile Include="220.cpp" />
     <ClCompile Include="279.cpp" />
@@ -168,6 +167,7 @@
     <ClCompile Include="557.cpp" />
     <ClCompile Include="752.cpp" />
     <ClCompile Include="820.cpp" />
+    <ClCompile Include="844.cpp" />
     <ClCompile Include="algrthm_happyhoursort.cpp" />
     <ClCompile Include="algrthm_mergesort.cpp" />
     <ClCompile Include="algrthm_shellsort.cpp" />
