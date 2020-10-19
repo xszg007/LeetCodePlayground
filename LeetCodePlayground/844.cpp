@@ -16,14 +16,14 @@ bool backspaceCompare(string &S, string &T) {
 	int lent = T.size();
 	for (int i = 0; i<lens; i++) {
 		if (S[i] == '#') {
-			S.erase(S.begin() + i, S.begin() + i + 1);
+			S.erase(S.begin() + i-1, S.begin() + i + 1);
 			i -= 2;
 			lens -= 2;
 		}
 	}
 	for (int i = 0; i<lent; i++) {
 		if (T[i] == '#') {
-			T.erase(T.begin() + i, T.begin() + i + 1);
+			T.erase(T.begin() + i-1, T.begin() + i + 1);
 			i -= 2;
 			lent -= 2;
 		}
