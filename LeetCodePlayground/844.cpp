@@ -31,10 +31,10 @@ bool backspaceCompare(string &S, string &T) {
 	return(S == T);
 }
 
-int main() {
-	string S = "ab#c";
-	string T = "ad#c";
-	bool res = backspaceCompare(S, T);
-	cout << S << '\n' << T << endl;
-	return res;
-}
+//int main() {
+//	string S = "ab#c";
+//	string T = "ad#c";
+//	bool res = backspaceCompare(S, T);
+//	cout << S << '\n' << T << endl;
+//	return res;
+//}

@@ -168,6 +168,7 @@
     <ClCompile Include="752.cpp" />
     <ClCompile Include="820.cpp" />
     <ClCompile Include="844.cpp" />
+    <ClCompile Include="973.cpp" />
     <ClCompile Include="algrthm_happyhoursort.cpp" />
     <ClCompile Include="algrthm_mergesort.cpp" />
     <ClCompile Include="algrthm_shellsort.cpp" />
@@ -176,11 +177,13 @@
     <ClCompile Include="baidu_3.cpp" />
     <ClCompile Include="algrthm_bubblesort.cpp" />
     <ClCompile Include="dahua_1.cpp" />
+    <ClCompile Include="h3c_1.cpp" />
     <ClCompile Include="huawei_interview2.cpp" />
     <ClCompile Include="Interview0108.cpp" />
     <ClCompile Include="LeetCodePlayground.cpp" />
     <ClCompile Include="netease_1.cpp" />
     <ClCompile Include="netease_2.cpp" />
+    <ClCompile Include="offer49.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
