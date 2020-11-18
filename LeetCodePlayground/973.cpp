@@ -45,9 +45,9 @@ vector<vector<int>> kClosest(vector<vector<int>>& points, int K) {
 
 
 
-int main() {
-	vector<vector<int>> pts = { {1,3},{-2,2} };
-	vector<vector<int>> op;
-	op=kClosest(pts,2);
-	return 0;
-}
+//int main() {
+//	vector<vector<int>> pts = { {1,3},{-2,2} };
+//	vector<vector<int>> op;
+//	op=kClosest(pts,2);
+//	return 0;
+//}
